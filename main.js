@@ -1,0 +1,1 @@
+(()=>{"use strict";class e{list(){}get(){}create(){}update(){}delete(){}}class t extends e{}const s=document.getElementById("root");new class{constructor(e){this.container=e,this.api=new t,this.websocket=null}init(){}bindToDOM(){}registerEvents(){}subscribeOnEvents(){}onEnterChatHandler(){}sendMessage(){}renderMessage(){}}(s).init()})();
