@@ -161,6 +161,22 @@ h1 {
   z-index: 20;
 }
 
+.modalChat__body {
+  display: flex;
+  border: 1px solid #c9cacc;
+}
+
+.modalChat__user {
+  width: 30%;
+  min-height: 300px;
+  border-right: 1px solid #c9cacc;
+}
+
+.modalChat__chat {
+  width: 70%;
+  min-height: 300px;
+}
+
 .modal__header {
   text-align: center;
   background-color: #dee2e1;
@@ -196,6 +212,12 @@ h1 {
 .form__input:focus {
   outline: none;
   border: 1px solid #20b1df;
+}
+
+.form__btn {
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
 }
 
 .form__hint {
@@ -247,5 +269,22 @@ h1 {
 .modal-text {
   text-align: center;
   font-size: 32px;
+}
+.user {
+  padding-left: 15px;
+}
+
+.chatUser {
+  padding-left: 15px;
+}
+
+.chatRight {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.right {
+  text-align: right;
+  padding-right: 15px;
 }
 
